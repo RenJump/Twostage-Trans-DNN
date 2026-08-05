@@ -6,6 +6,22 @@ Authors: Junpeng Ren, Carlos Misael Madrid Padilla, Yanzhen Chen, and Oscar Hern
 
 The code provides a PyTorch implementation of the two-stage transfer learning estimator used in the paper, together with simulation settings for reproducing the neural-network experiments.
 
+## Install
+
+Install directly from the public GitHub repository:
+
+```bash
+pip install git+https://github.com/RenJump/Twostage-Trans-DNN.git
+```
+
+Then import the package as:
+
+```python
+from twostage_transdnn import TrainingConfig, TwoStageTransferRegressor
+```
+
+The package name is `twostage-transdnn`; the Python import name is `twostage_transdnn`.
+
 The algorithm is:
 
 1. train one pooled model using all groups;
@@ -59,9 +75,7 @@ See `examples/custom_data_transfer.py` for a minimal runnable example.
 `-- requirements.txt
 ```
 
-## Install
-
-The package name is `twostage-transdnn`; import it as `twostage_transdnn`.
+## Local Development
 
 ```bash
 pip install -e .
