@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import numpy as np
 
-from twostage_transfer import TrainingConfig, TwoStageTransferRegressor
+from twostage_transdnn import TrainingConfig, TwoStageTransferRegressor
 
 
 def main() -> None:

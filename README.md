@@ -16,7 +16,7 @@ The algorithm is:
 ## Use On Your Own Data
 
 ```python
-from twostage_transfer import TrainingConfig, TwoStageTransferRegressor
+from twostage_transdnn import TrainingConfig, TwoStageTransferRegressor
 
 model = TwoStageTransferRegressor(
     input_dim=X_train.shape[1],
@@ -46,7 +46,7 @@ See `examples/custom_data_transfer.py` for a minimal runnable example.
 
 ```text
 .
-|-- src/twostage_transfer/
+|-- src/twostage_transdnn/
 |   |-- algorithm.py      # reusable two-stage estimator
 |   |-- scenarios.py      # simulation settings
 |   `-- experiment.py     # simulation runner
@@ -60,6 +60,8 @@ See `examples/custom_data_transfer.py` for a minimal runnable example.
 ```
 
 ## Install
+
+The package name is `twostage-transdnn`; import it as `twostage_transdnn`.
 
 ```bash
 pip install -e .

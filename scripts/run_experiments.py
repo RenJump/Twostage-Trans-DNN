@@ -5,8 +5,8 @@ from pathlib import Path
 
 import torch
 
-from twostage_transfer.scenarios import SCENARIOS, get_scenario
-from twostage_transfer.experiment import run_many, save_results
+from twostage_transdnn.scenarios import SCENARIOS, get_scenario
+from twostage_transdnn.experiment import run_many, save_results
 
 
 def parse_ints(text: str) -> list[int]:
