@@ -184,10 +184,10 @@ SCENARIOS: dict[str, ScenarioConfig] = {
     "nn_extrasn4_snr10": _low_dim("nn_extrasn4_snr10", 10, "extrasn4_snr10", "extrasn4"),
     "nn_extrasn4_snr5": _low_dim("nn_extrasn4_snr5", 5, "extrasn4_snr5", "extrasn4"),
     "nn_extrasn4_snr2": _low_dim("nn_extrasn4_snr2", 2, "extrasn4_snr2", "extrasn4"),
-    "new_nn_sc3_std01": ScenarioConfig(
-        name="new_nn_sc3_std01",
+    "nn_sc3_std01": ScenarioConfig(
+        name="nn_sc3_std01",
         kind="latent_100",
-        output_prefix="new_sn3_std01",
+        output_prefix="sn3_std01",
         dataset_sizes=(5000, 10000, 30000, 50000),
         num_groups=30,
         input_dim=100,
@@ -200,10 +200,10 @@ SCENARIOS: dict[str, ScenarioConfig] = {
         summary_groups=5,
         noise_std=0.1,
     ),
-    "new_nn_sc3_std1": ScenarioConfig(
-        name="new_nn_sc3_std1",
+    "nn_sc3_std1": ScenarioConfig(
+        name="nn_sc3_std1",
         kind="latent_100",
-        output_prefix="new_sn3_std1",
+        output_prefix="sn3_std1",
         dataset_sizes=(5000, 10000, 30000, 50000),
         num_groups=30,
         input_dim=100,
@@ -216,10 +216,10 @@ SCENARIOS: dict[str, ScenarioConfig] = {
         summary_groups=5,
         noise_std=1.0,
     ),
-    "new_nn_sc4_std01": ScenarioConfig(
-        name="new_nn_sc4_std01",
+    "nn_sc4_std01": ScenarioConfig(
+        name="nn_sc4_std01",
         kind="latent_tail",
-        output_prefix="new_sn4_std01",
+        output_prefix="sn4_std01",
         dataset_sizes=(5000, 10000, 30000, 50000),
         num_groups=30,
         input_dim=500,
@@ -232,10 +232,10 @@ SCENARIOS: dict[str, ScenarioConfig] = {
         summary_groups=5,
         noise_std=0.1,
     ),
-    "new_nn_sc4_std1": ScenarioConfig(
-        name="new_nn_sc4_std1",
+    "nn_sc4_std1": ScenarioConfig(
+        name="nn_sc4_std1",
         kind="latent_tail",
-        output_prefix="new_sn4_std1",
+        output_prefix="sn4_std1",
         dataset_sizes=(5000, 10000, 30000, 50000),
         num_groups=30,
         input_dim=500,

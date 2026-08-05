@@ -82,8 +82,8 @@ Available scenarios:
 ```text
 nn_sc1_snr10, nn_sc1_snr5, nn_sc1_snr2
 nn_sc2_snr10, nn_sc2_snr5, nn_sc2_snr2
-new_nn_sc3_std01, new_nn_sc3_std1
-new_nn_sc4_std01, new_nn_sc4_std1
+nn_sc3_std01, nn_sc3_std1
+nn_sc4_std01, nn_sc4_std1
 nn_extrasn1_snr10, nn_extrasn1_snr5, nn_extrasn1_snr2
 nn_extrasn2_snr10, nn_extrasn2_snr5, nn_extrasn2_snr2
 nn_extrasn3_snr10, nn_extrasn3_snr5, nn_extrasn3_snr2
