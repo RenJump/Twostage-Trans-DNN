@@ -75,14 +75,6 @@ See `examples/custom_data_transfer.py` for a minimal runnable example.
 `-- requirements.txt
 ```
 
-## Local Development
-
-```bash
-pip install -e .
-```
-
-Install a PyTorch build that matches your CPU/GPU environment.
-
 ## Run A Simulation
 
 ```bash
